@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+   float roi =6.5;
+   int pri = 50000,n = 5;
+   
+   float intrest = pri*roi*n/100;
+   
+   printf("\n interst amount is %f",intrest);
+   
+   float finalamount = intrest+pri;
+   
+   printf("\n final amount is %f",finalamount);
+
+    getch();
+}                   
