@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int i;
+    
+    for(i=105;i<=200;i++)
+    {
+        printf("\n Number : %d",i);
+    }
+    
+  
+    
+  getch();
+}
