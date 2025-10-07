@@ -1,0 +1,18 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int maths = 98;
+    int science = 68;
+    int hindi = 78;
+    int english = 98;
+    int gujarati = 99;
+    
+    int total = maths+science+hindi+english+gujarati;
+    printf("\n Total is  %d ",total);
+    
+    float per = total/5;
+    printf("\n Percentage is %f ",per);
+    
+    getch();
+}
