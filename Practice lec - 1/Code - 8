@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int princi=50000,year=5;
+    float roi=9.5;
+    
+    float intrest = princi*roi*year/100;
+    float total = princi+intrest;
+    printf("Total Amount is %f",total);
+    
+   
+    getch();
+}
