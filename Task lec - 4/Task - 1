@@ -1,0 +1,39 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+    int guess, lucky = 67, i = 1;
+
+    printf("Enter Lucky Number between 1 to 100\n");
+
+    do
+    {
+        printf("Attempt %d: ", i);
+        scanf("%d", &guess);
+
+        if(guess == lucky)
+        {
+            printf("Congratulations! You guessed the number.\n");
+            break;
+        }
+        else if(guess < lucky)
+        {
+            printf("Try with a higher number.\n");
+        }
+        else
+        {
+            printf("Try with a lower number.\n");
+        }
+
+        i++;
+
+        if(i > 5)
+        {
+            printf("Game Over! Maximum tries reached.\n");
+        }
+
+    }while(i <= 5);
+
+    getch();
+}
