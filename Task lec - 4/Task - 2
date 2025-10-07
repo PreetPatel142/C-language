@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+    int num, i = 1, fact = 1; // i - loops mate,fact 
+                              // fact - results mate
+    
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    do
+    {
+        fact = fact * i;
+        i++;
+    }while(i <= num);
+
+    printf("Factorial of %d = %d", num, fact);
+
+    getch();
+}
